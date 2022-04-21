@@ -10,7 +10,7 @@ myImage.onclick = function() {
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 function setUserName() {
-    var myName = prompt('Karina');
+    var myName = prompt('Karina and Alina');
     localStorage.setItem('Karina', myName);
     myHeading.textContent = 'Mozilla is cool, ' + myName;
   }
